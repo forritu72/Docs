@@ -8,6 +8,7 @@
 ## Install Java
 We will be using open java for our demo, Get latest version from http://openjdk.java.net/install/
 ```sh
+sudo su -
 yum install java-11*
 
 ```
