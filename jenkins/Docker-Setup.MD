@@ -15,6 +15,16 @@ systemctl enable docker
 ```sh
    vi /etc/sudoers
    jenkins ALL=(ALL) NOPASSWD: ALL
+   
+   echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+https://github.com/yankils/ansible_for_beginners/blob/master/create_user.yml
+
+
+https://github.com/initsixcloud/Docs/blob/main/jenkins/Jenkins-setup-helm.MD
+
+
+
 ```   
    
 
